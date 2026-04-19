@@ -1,0 +1,17 @@
+# 忽略所有数据文件
+data/
+output/
+
+# 忽略常见的照片格式（防止误传大文件）
+*.jpg
+*.jpeg
+*.png
+*.raw
+
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
